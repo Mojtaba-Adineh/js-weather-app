@@ -1,0 +1,126 @@
+@font-face {
+    font-family: yekan;
+    src: url("./Yekan.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: yekan;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh ;
+    background-image: url("images/aerial-shot-beautiful-tree-forest-covered-with-fog-bled-slovenia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-container{
+    height: 80%;
+    width: 80%;
+    display: flex;
+}
+
+.leftSection{
+    background-image: url(images/pexels-eberhard-grossgasteiger-2310641.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35%;
+    text-align: center;
+    padding-top: 50px;
+    border-top-left-radius: 50px;
+}
+
+.leftSection h2,h3{
+    display: inline-block;
+    background: linear-gradient(to left , orange  , #e9eaef 80%) ;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.leftSection h3{
+    background: linear-gradient(to right , orange  , #e9eaef 80%) ;
+}
+
+.rightSection{
+    background-color: rgb(43, 42, 42);
+    width: 70%;
+    border-bottom-right-radius: 50px;
+}
+
+.rightSection .inputSection{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 100px auto ;
+}
+
+.rightSection .inputSection #cityInput{
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(43, 42, 42) ;
+    border: none;
+    border-bottom: 1px solid orange;
+    border-radius: 0;
+    font-size: larger;
+    color: white;
+    padding-right: 5px;
+    font-family: sans-serif;
+}
+
+.rightSection .inputSection #cityInput:focus{
+    outline: none;
+}
+
+ .inputSection #cityInput::placeholder{
+    font-family: yekan;
+}
+
+
+.rightSection .inputSection #button{
+    width: 17%;
+    border-radius: 5px;
+    font-size: 25px;
+    border: none;
+}
+
+.rightSection .inputSection #button:hover{
+    background-color: orange;
+}
+
+.infoSection{
+    text-align: center;
+    color: orange;
+}
+
+.infoSection p{
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.infoSection :nth-child(1){
+    font-size: 35px;
+}
+
+.infoSection :nth-child(2){
+    font-size: 20px;
+}
+
+.infoSection :nth-child(3){
+    font-size: 20px;
+}
+
+.infoSection :nth-child(4){
+    font-size: 20px;
+}
+
+
